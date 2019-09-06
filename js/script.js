@@ -11,29 +11,10 @@ function crayon(){
 
 document.getElementById('set-color').addEventListener('click', crayon);
 
+//  commit 3
 
-
-
-
-
-
-
-
-
-
-// document.querySelector("#set-color").addEventListener('click',function(e)
-// {
-//   console.log(e);
-//
-//
-// });
-//
-// // How can I make pressing the button affect the color of the box?
-//
-// I know that the color of the box is affected by style.Color
-//
-// document.querySelector(".brush").style.
-//
-// function(b){
-//   b.style.color();
-//   console.log("hi");
+for (let i = 0; i < 20; i++) {
+  let div = document.createElement('div');
+  div.setAttribute('class', 'square');
+  document.body.appendChild(div);
+}
